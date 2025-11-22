@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'    # Next.js recommended version
+          node-version: '22'    # Next.js recommended version
           cache: 'npm'
 
       # Step 3: Install dependencies
